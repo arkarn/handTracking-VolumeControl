@@ -11,6 +11,7 @@ import time
 VOLUME = 0.5 #np.interp(int(time.time()//10)%10, [0,9], [0, 1])
 import av
 
+
 st.set_page_config(layout="wide")
 detector = htm.handDetector()
 
